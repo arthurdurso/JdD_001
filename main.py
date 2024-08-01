@@ -20,4 +20,4 @@ print(f"\nCalculo do KPI: {bonus_final}")
 print(f"\nInformacoes do Usuario\nNome: {nome}\nSalario: {salario}\nBonus: {bonus}")
 
 # Bônus: Quantos bugs e riscos você consegue identificar nesse programa?
-print("\nOs bugs e riscos é a possibilidade de ValueError vindo do input salario e bonyus, não conseguindo transformar em float, caso nao venha um numero.")
+print("\nOs bugs e riscos é a possibilidade de ValueError vindo do input salario e bonus, não conseguindo transformar em float, caso nao venha um numero.")
