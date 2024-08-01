@@ -10,7 +10,8 @@ salario = float(input("\nDigite o valor do seu salario: "))
 bonus = float(input("\nDigite o valor do seu bonus: "))
 
 # 4) Calcule o valor do bônus final
-bonus_final = 1000 + salario + bonus
+CONSTANTE_BONUS = 1000
+bonus_final = CONSTANTE_BONUS + salario * bonus
 
 # 5) Imprima cálculo do KPI para o usuário
 print(f"\nCalculo do KPI: {bonus_final}")
@@ -19,4 +20,4 @@ print(f"\nCalculo do KPI: {bonus_final}")
 print(f"\nInformacoes do Usuario\nNome: {nome}\nSalario: {salario}\nBonus: {bonus}")
 
 # Bônus: Quantos bugs e riscos você consegue identificar nesse programa?
-print("\nOs bugs e riscos é a possibilidade de Typeerror vindo do input salario e bonyus, não conseguindo transformar em float, caso nao venha um numero.")
+print("\nOs bugs e riscos é a possibilidade de ValueError vindo do input salario e bonyus, não conseguindo transformar em float, caso nao venha um numero.")
